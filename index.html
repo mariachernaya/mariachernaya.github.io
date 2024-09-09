@@ -1,93 +1,76 @@
-
-<!DOCTYPE html>
-
-<html>
-
-  <head>
-    <title>Форма HTML</title>
-  </head>
-
-  <body>
-
-    <h1>Форма HTML</h1>
+ <h1>Пример формы HTML</h1>
 
     <form action="/"
       method="POST">
 
       <label>
-        ФИО:<br />
+        Однострочное текстовое поле:<br />
         <input name="field-name-1"
-         placeholder="Петров Петр Петрович" />
+          value="начальное значение" />
       </label><br />
-
- <label>
-        Номер телефона:<br />
-        <input name="field-phone"
-         placeholder="88000000000" />
-      </label><br />
-
 
       <label>
         Текстовое поле email:<br />
         <input name="field-email"
           type="email"
-          placeholder="Введите почту" />
+          placeholder="Введите вашу почту" />
       </label><br />
 
       <label>
-        Дата рождения:<br />
+        Текстовое поле даты:<br />
         <input name="field-date"
-          value="2005-01-01"
+          value="2019-08-13"
           type="date" />
       </label><br />
 
-  Укажите пол:<br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-1" value="Значение1" />
-        женский</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение2" />
-        мужской</label><br />
-
+      <label>
+        Многострочное текстовое поле:<br />
+        <textarea name="field-name-2">начальное значение</textarea>
+      </label><br />
 
       <label>
-        Любимый язык программирования:
-        <br />
-        <select name="field-name-4[]"
-          multiple="multiple">
-          <option value="Значение1">Pascal</option>
-          <option value="Значение2" selected="selected">C</option>
-          <option value="Значение3" selected="selected">C++</option>
- 	  <option value="Значение4" selected="selected">JavaScript</option>
-          <option value="Значение5" selected="selected">PHP</option>
- 	  <option value="Значение6" selected="selected">Python</option>
-          <option value="Значение7" selected="selected">Java</option>
- 	  <option value="Значение8" selected="selected">Haskel</option>
-          <option value="Значение9" selected="selected">Clojure</option>
-	  <option value="Значение10" selected="selected">Prolog</option>
-          <option value="Значение11" selected="selected">Scala</option>
+        Список (combobox):<br />
+        <select name="field-name-3">
+          <option value="Значение1">Метка1</option>
+          <option value="Значение2" selected="selected">Метка2</option>
+          <option value="Значение3">Метка3</option>
         </select>
       </label><br />
 
-	<label>
-        Биография:<br />
-       <textarea name="field-name-2" placeholder="Расскажите о себе"></textarea>
+      <label>
+        Список (listbox с множественным выбором):
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Метка1</option>
+          <option value="Значение2" selected="selected">Метка2</option>
+          <option value="Значение3" selected="selected">Метка3</option>
+        </select>
       </label><br />
 
+      Радиокнопки:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Подпись радиокнопки 1</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Подпись радиокнопки 2</label><br />
 
-      
-      С контрактом ознакомлен(а):<br />
+      Чекбокс:<br />
       <label><input type="checkbox" checked="checked"
         name="check-1" />
-       Согласен(на)</label><br />
+        Подпись чекбокса ставим справа</label><br />
 
-    
-      <input type="submit" value="Сохранить" />
+      Кнопка отправки формы,
+      при нажатии заполненные в форму данные
+      отправятся в формате urlencoded методом
+      POST или GET по адресу URL_отправки_данных:
+      <input type="submit" value="Отправить" />
     </form>
-
 
   </body>
 
-</html>
+</html> 
+
  
 
