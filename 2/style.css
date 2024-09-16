@@ -7,7 +7,7 @@ ok{
 
 
 }
-#p table.active, ul.active{
+#p table.active{
  max-width:700px; 
  background-color: white;
  margin: 0 auto;
