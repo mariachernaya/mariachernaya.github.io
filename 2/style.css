@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html>
-
   <head>
     <title>Оформление</title>
   </head>
@@ -18,7 +16,7 @@
     </div>
 
     <!-- этот блок будет ограничен по ширине и горизонтально выровнен по центру родительского элемента -->
-    <div style="max-width:450px; background-color:#aaa; margin: 0 auto; margin-top:30px; padding:20px;">
+    <div style="max-width:550px; background-color:#aaa; margin: 0 auto; margin-top:30px; padding:20px;">
     Контент
     </div>
     <!-- этот блок будет ограничен по ширине и горизонтально выровнен по центру родительского элемента -->
