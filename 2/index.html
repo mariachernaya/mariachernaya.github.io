@@ -86,4 +86,70 @@
 	<td>Ячейка 65</td>
       </tr>
     </table>
+<h1>Форма HTML</h1>
 
+    <form action="/" method="POST">
+
+    <label>
+        ФИО:<br />
+        <input name="field-name-1" placeholder="Петров Петр Петрович" />
+    </label><br />
+
+    <label>
+        Номер телефона:<br />
+        <input name="field-phone" placeholder="88000000000" />
+    </label><br />
+
+    <label>
+        Текстовое поле email:<br />
+        <input name="field-email" type="email" placeholder="Введите почту" />
+    </label><br />
+
+    <label>
+        Дата рождения:<br />
+        <input name="field-date" value="2005-01-01" type="date" />
+    </label><br />
+
+  Укажите пол:<br />
+      <label>
+	      <input type="radio" checked="checked" name="radio-group-1" value="Значение1" />
+      женский
+      </label>
+      <label>
+	      <input type="radio" name="radio-group-1" value="Значение2" />
+        мужской
+      </label><br />
+
+      <label>
+        Любимый язык программирования: <br />
+        <select name="field-name-4[]"
+          	multiple="multiple">
+          	<option value="Значение1">Pascal</option>
+          	<option value="Значение2" selected="selected">C</option>
+          	<option value="Значение3" selected="selected">C++</option>
+ 	  	<option value="Значение4" selected="selected">JavaScript</option>
+          	<option value="Значение5" selected="selected">PHP</option>
+ 	  	<option value="Значение6" selected="selected">Python</option>
+          	<option value="Значение7" selected="selected">Java</option>
+ 	  	<option value="Значение8" selected="selected">Haskel</option>
+          	<option value="Значение9" selected="selected">Clojure</option>
+	  	<option value="Значение10" selected="selected">Prolog</option>
+          	<option value="Значение11" selected="selected">Scala</option>
+        </select>
+      </label><br />
+
+      <label>
+        Биография:<br />
+       <textarea name="field-name-2" placeholder="Расскажите о себе"></textarea>
+      </label><br />
+
+С контрактом ознакомлен(а):<br />
+      <label><input type="checkbox" checked="checked" name="check-1" />
+       Согласен(на)
+       </label><br />
+
+      <input type="submit" value="Сохранить" />
+	    
+    </form>
+</body>
+</html> 
