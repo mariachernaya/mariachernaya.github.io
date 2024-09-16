@@ -1,5 +1,10 @@
 ok{
-  background-color: green; 
+ color: #000000;
+ background-color: white;
+  width:100%;
+  padding: 10px; 
+  height:120px
+
 
 }
 #p table.active, ul.active{
