@@ -22,3 +22,19 @@ kart{
    width:100px; 
    height:100px;
 }
+#main{
+ width:100%; 
+ background-color:#fff; 
+ padding: 10px; 
+ height:120px;
+}
+.img{
+ float:left; 
+ margin:10px;
+ width:75px; 
+ height:75px;
+ }
+ 
+    
+      <div style="background-color:#ddd; padding:10px;">Текст</div>
+
