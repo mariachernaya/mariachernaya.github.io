@@ -5,10 +5,11 @@ nchet{
  background-color:blue;
 }
 ok{
-  width:100%; 
-  background-color: red; 
-  padding: 10px; 
-  height:120px;">
+  background-color: purple; 
+  background-image: url(pikch.jpg);
+  background-position: left top;
+  background-size: 50%; 
+  >
 }
 #p table.active, ul.active{
  max-width:700px; 
