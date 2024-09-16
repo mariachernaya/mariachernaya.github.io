@@ -1,13 +1,6 @@
-a{
-  
-}
-#header, #footer
+header
 {
   margin:0;
   background-color:#abc;
   
-}
-#table
-{
-  background-color:#abc;
 }
