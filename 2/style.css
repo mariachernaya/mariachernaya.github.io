@@ -22,7 +22,7 @@ kart{
    width:100px; 
    height:100px;
 }
-#main{
+#header, #footer{
  width:100%; 
  background-color:#fff; 
  padding: 10px; 
@@ -34,7 +34,9 @@ kart{
  width:75px; 
  height:75px;
  }
+.text{
+ margin: 0 auto;
+ max-width: 960px;
+}
  
-    
-      <div style="background-color:#ddd; padding:10px;">Текст</div>
 
