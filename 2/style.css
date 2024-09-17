@@ -11,6 +11,7 @@
   padding-top: 20px;
   border-top-style: double;
   border-top-width: thick;
+   width:100%; 
 }
 div.c{
  max-width: 960px;
