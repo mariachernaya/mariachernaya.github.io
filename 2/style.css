@@ -1,7 +1,7 @@
-#nchet td{ 
+tr:nth-child(even){ 
  background-color: orange;
 }
-#chet td{ 
+tr:nth-child(odd){ 
  background-color: yellow;
 }
  footer{
