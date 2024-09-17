@@ -28,9 +28,9 @@ div.c{
 div.header{
  width:100%; 
  color: black;  
- background-color:#fff;
- padding: 10px; 
- height:120px;
+ background-color: aliceblue;
+ padding: 5px;
+ height: 150px;
 }
 div.h{
  max-width:450px; 
