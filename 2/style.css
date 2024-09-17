@@ -40,14 +40,7 @@ div.h{
  margin-top:30px; 
  padding:25px;
 }
-form{
- display: bold;
- flex-flow: row nowrap;
- justify-content: flex-start;
- align-items: center;
- background-color: aqua;
- background-size: 100%;
-}
+
 nav {
   flex-grow: 1;
   background-color: #fff;
