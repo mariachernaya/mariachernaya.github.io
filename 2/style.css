@@ -15,21 +15,13 @@ ok{
  padding:20px;
 
 }
-#header, #footer{
+ footer{
  width:100%; 
  background-color:#fff; 
  padding: 10px; 
  height:120px;
 }
-.img{
- float:left; 
- margin:10px;
- width:75px; 
- height:75px;
- }
-.text{
- margin: 0 auto;
- max-width: 960px;
-}
+
+
  
 
