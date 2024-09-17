@@ -8,6 +8,13 @@
  background-color:blue;
   color: black;  
 }
+div.c{
+ max-width: 960px;
+ background-color:pink;
+ margin:auto;
+ margin-top:45px;
+ padding:5px;
+}
 
 
  
