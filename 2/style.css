@@ -28,12 +28,10 @@ div.center{
 }
  header {
 display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: center;
+flex-flow: row nowrap;
 background-position: right;
 background-size: 100%;
- background-color: aliceblue; 
+background-color: aliceblue; 
 }
 div.h{
  max-width:800px; 
