@@ -16,10 +16,11 @@ ok{
 
 }
  footer{
- width:100%; 
- background-color:#fff; 
- padding: 10px; 
- height:120px;
+ background-color:blue;
+  color: black;
+ 
+
+  
 }
 
 
