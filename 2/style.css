@@ -6,7 +6,11 @@
 }
  footer{
  background-color:aqua;
-  color: black;  
+ color: black;  
+ padding-left: 67px;
+  padding-top: 20px;
+  border-top-style: double;
+  border-top-width: thick;
 }
 div.c{
  max-width: 960px;
@@ -14,6 +18,26 @@ div.c{
  margin:auto;
  margin-top:45px;
  padding:5px;
+}
+#pikch{
+ float:left; 
+ margin:35px; 
+ width:100px; 
+ height:100px;
+}
+div.header{
+ width:100%; 
+ color: black;  
+ background-color:#fff;
+ padding: 10px; 
+ height:120px;
+}
+div.h{
+ max-width:450px; 
+ background-color:#444; 
+ margin: 0 auto; 
+ margin-top:30px; 
+ padding:25px;
 }
 
 
