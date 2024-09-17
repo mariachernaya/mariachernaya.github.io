@@ -14,7 +14,7 @@
 }
 div.c{
  max-width: 960px;
- background-color:pink;
+ background-color:cba;
  margin:auto;
  margin-top:45px;
  padding:5px;
@@ -39,6 +39,10 @@ div.h{
  margin-top:30px; 
  padding:25px;
 }
+fon{
+ display: bold;
+}
+
 
 
  
