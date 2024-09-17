@@ -20,7 +20,7 @@ div.c{
  padding:5px;
 }
 #pikch{
- float:left; 
+ float: left; 
  margin:35px; 
  width:100px; 
  height:100px;
@@ -41,6 +41,15 @@ div.h{
 }
 fon{
  display: bold;
+ flex-flow: row nowrap;
+ justify-content: flex-start;
+ align-items: center;
+ background-color: aqua;
+ background-size: 100%;
+}
+nav {
+  flex-grow: 1;
+  background-color: #fff;
 }
 
 
