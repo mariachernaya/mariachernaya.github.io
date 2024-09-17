@@ -1,26 +1,12 @@
-ok{
- color: #000;
- background-color: green;
-  width:100%;
-  padding: 10px; 
-  height:120px
-
-
+#nchet td{ 
+ background-color: orange;
 }
-#p table.active{
- max-width:700px; 
- background-color: white;
- margin: 0 auto;
- margin-top:30px;
- padding:20px;
-
+#chet td{ 
+ background-color: yellow;
 }
  footer{
  background-color:blue;
-  color: black;
- 
-
-  
+  color: black;  
 }
 
 
