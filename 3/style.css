@@ -9,7 +9,7 @@
 }
 #main-aside-wrapper aside {
  flex: 1;
- order: 2;
+
 }
 #main-aside-wrapper main {
  flex: 1;
