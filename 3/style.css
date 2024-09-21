@@ -20,10 +20,7 @@
  flex-direction: column;
  }
 }
-#table-widget {
 
-top: 15;
-}
 tr:nth-child(even){ 
  background-color: orange;
 }
