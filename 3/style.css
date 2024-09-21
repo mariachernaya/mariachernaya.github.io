@@ -1,6 +1,6 @@
 #main-aside-wrapper {
  display: flex;
- flex-direction: column;
+ flex-direction: row;
 }
 #main-aside-wrapper main, #mainaside-wrapper aside {
  background-color: #ddd;
