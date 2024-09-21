@@ -18,6 +18,7 @@
 @media screen and (min-width: 800px) {
  #main-aside-wrapper {
  flex-direction: column;
+  width:100%; 
  }
 }
 
