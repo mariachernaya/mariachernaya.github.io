@@ -12,7 +12,7 @@
  order: 1;
 }
 #main-aside-wrapper main {
- flex: 3;
+ flex: 1;
  order: 2;
 }
 @media screen and (min-width:
