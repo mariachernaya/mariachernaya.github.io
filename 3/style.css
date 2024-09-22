@@ -73,8 +73,6 @@ div.navigation {
 @media screen and (min-width: 800px) {
  #main-aside-wrapper {
  flex-direction: column;
+  order 0;
  }
-  #main-aside-wrapper aside, #main-aside-wrapper main {
- order 0;
-}
 }
