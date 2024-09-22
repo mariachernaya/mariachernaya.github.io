@@ -47,7 +47,7 @@ header {
     background-position: right;
     background-size: 100%;
     background-color: aliceblue;
-    flex-direction: column;
+  
 }
 div.h{
  max-width:800px; 
