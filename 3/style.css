@@ -8,14 +8,6 @@
  flex: 1;
  order 0;
 }
-  #main-aside-wrapper headerr {
- flex: 1;
- order -1;
-}
-  #main-aside-wrapper navv {
- flex: 1;
- order -1; 
-}
 #main-aside-wrapper main {
  flex: 1;
  order: 1;
@@ -81,6 +73,8 @@ div.navigation {
 @media screen and (min-width: 800px) {
  #main-aside-wrapper {
  flex-direction: column;
-  order 0;
  }
+  #main-aside-wrapper aside, #main-aside-wrapper main {
+ order 0;
+}
 }
