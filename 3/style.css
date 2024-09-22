@@ -1,7 +1,7 @@
 #main-aside-wrapper {
  display: flex;
  flex-direction: column;
- width:100%; 
+ 
 }
 tr:nth-child(even){ 
  background-color: orange;
