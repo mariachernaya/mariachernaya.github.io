@@ -10,12 +10,6 @@
  flex: 1;
  order: 1;
 }
-tr:nth-child(even){ 
- background-color: orange;
-}
-tr:nth-child(odd){ 
- background-color: yellow;
-}
 #main-aside-wrapper footer{
  background-color:aqua;
  color: black;  
@@ -24,6 +18,12 @@ tr:nth-child(odd){
   border-top-style: double;
   border-top-width: thick;
   width:auto; 
+}
+tr:nth-child(even){ 
+ background-color: orange;
+}
+tr:nth-child(odd){ 
+ background-color: yellow;
 }
 div.center{
  max-width: 500px;
