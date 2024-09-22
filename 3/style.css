@@ -73,7 +73,7 @@ div.navigation {
   letter-spacing: .2em;
 }
 @media screen and (min-width: 800px) {
- #main-aside-wrapper aside,  #main-aside-wrapper main,  #main-aside-wrapper head{
-  order: none;
+ #main-aside-wrapper{
+ flex-direction: row;
  }
 }
