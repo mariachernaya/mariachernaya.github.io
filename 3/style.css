@@ -67,7 +67,7 @@ div.navigation {
   margin-left: 60px;
   letter-spacing: .2em;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
 #main-aside-wrapper {
  flex-direction: row;
 }
