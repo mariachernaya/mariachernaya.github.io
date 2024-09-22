@@ -12,6 +12,10 @@
  flex: 1;
  order: 1;
 }
+#main-aside-wrapper head{
+    display: flex;
+    flex-direction: column;
+}
 tr:nth-child(even){ 
  background-color: orange;
 }
