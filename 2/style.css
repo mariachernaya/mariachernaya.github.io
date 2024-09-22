@@ -11,7 +11,7 @@ tr:nth-child(odd){
   padding-top: 20px;
   border-top-style: double;
   border-top-width: thick;
-   width:100%; 
+   width: auto; 
 }
 div.center{
  max-width: 500px;
