@@ -11,14 +11,15 @@
  order: 1;
 }
 #main-aside-wrapper footer{
+ flex: 1;
  order: 1;
  background-color:aqua;
  color: black;  
  padding-right: 67px;
-  padding-top: 20px;
-  border-top-style: double;
-  border-top-width: thick;
-  width:auto; 
+ padding-top: 20px;
+ border-top-style: double;
+ border-top-width: thick;
+ width:auto; 
 }
 tr:nth-child(even){ 
  background-color: orange;
