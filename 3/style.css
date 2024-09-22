@@ -41,13 +41,13 @@ div.center{
  width:100px; 
  height:100px;
 }
- header {
-display: flex;
-flex-direction: column;
-flex-flow: row nowrap;
-background-position: right;
-background-size: 100%;
-background-color: aliceblue; 
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    background-position: right;
+    background-size: 100%;
+    background-color: aliceblue;
+    flex-direction: column;
 }
 div.h{
  max-width:800px; 
