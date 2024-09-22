@@ -3,7 +3,6 @@
  flex-direction: column;
  width:100%; 
 }
-
  #main-aside-wrapper aside {
  flex: 1;
  order 0;
@@ -75,8 +74,6 @@ div.navigation {
 }
 @media screen and (min-width: 800px) {
  #main-aside-wrapper aside,  #main-aside-wrapper main,  #main-aside-wrapper head{
-  display: flex;
- flex-direction: column;
-  order 0;
+  order: none;
  }
 }
