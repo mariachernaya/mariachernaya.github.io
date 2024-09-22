@@ -43,6 +43,7 @@ div.center{
 }
  header {
 display: flex;
+flex-direction: column;
 flex-flow: row nowrap;
 background-position: right;
 background-size: 100%;
