@@ -10,11 +10,11 @@
 
  #main-aside-wrapper aside {
  flex: 1;
- order 2;
+ order 0;
 }
   #main-aside-wrapper main1 {
  flex: 1;
- order 3;
+ order -1;
 }
 #main-aside-wrapper main {
  flex: 1;
