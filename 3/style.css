@@ -10,9 +10,7 @@
  flex: 1;
  order: 1;
 }
-#main-aside-wrapper footer{
- flex: 1;
- order: 1;
+ footer{
  background-color:aqua;
  color: black;  
  padding-right: 67px;
