@@ -16,6 +16,10 @@
  flex: 1;
  order 2;
 }
+  #main-aside-wrapper main1 {
+ flex: 1;
+ order 3;
+}
 #main-aside-wrapper main {
  flex: 1;
  order: 1;
