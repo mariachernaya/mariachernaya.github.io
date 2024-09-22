@@ -7,6 +7,18 @@
  margin: 5px;
  padding: 5px;
 }
+ #main-aside-wrapper aside {
+ flex: 1;
+ order 1;
+}
+  #main-aside-wrapper main1 {
+ flex: 1;
+ order 1;
+}
+#main-aside-wrapper main {
+ flex: 1;
+ order: 1;
+}
 @media screen and (max-width: 800px) {
  #main-aside-wrapper {
  flex-direction: column;
