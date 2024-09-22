@@ -71,10 +71,10 @@ div.navigation {
 }
 #main-aside-wrapper aside {
  flex: 1;
- order 1;
+ order 0;
 }
 #main-aside-wrapper main, #main-aside-wrapper maq{
  flex: 1;
- order: 1;
+ order: 0;
 }
 }
