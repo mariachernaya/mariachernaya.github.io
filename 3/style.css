@@ -1,18 +1,6 @@
 #main-aside-wrapper {
  display: flex;
- flex-direction: column;
-}
- #main-aside-wrapper aside {
- flex: 1;
- order 1;
-}
-  #main-aside-wrapper main1 {
- flex: 1;
- order 1;
-}
-#main-aside-wrapper main {
- flex: 1;
- order: 1;
+ flex-direction: row;
 }
 @media screen and (max-width: 800px) {
  #main-aside-wrapper {
