@@ -40,7 +40,7 @@ div.center{
 }
 header {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     background-position: right;
     background-size: 100%;
     background-color: aliceblue;
