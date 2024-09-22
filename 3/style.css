@@ -10,10 +10,6 @@
  flex: 1;
  order: 1;
 }
-#main-aside-wrapper maq {
- flex: 1;
- order: 1;
-}
 tr:nth-child(even){ 
  background-color: orange;
 }
@@ -78,10 +74,6 @@ div.navigation {
  order 0;
 }
 #main-aside-wrapper main {
- flex: 1;
- order: 0;
-}
- #main-aside-wrapper maq {
  flex: 1;
  order: 0;
 }
