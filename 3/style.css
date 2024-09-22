@@ -16,7 +16,7 @@ tr:nth-child(even){
 tr:nth-child(odd){ 
  background-color: yellow;
 }
- footer{
+#main-aside-wrapper footer{
  background-color:aqua;
  color: black;  
  padding-right: 67px;
