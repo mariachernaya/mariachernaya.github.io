@@ -6,6 +6,10 @@
  #main-aside-wrapper {
  flex-direction: column;
  }
+ #main-aside-wrapper aside,  #main-aside-wrapper main1, #main-aside-wrapper main {
+ flex: 1;
+ order 0;
+}
 }
  #main-aside-wrapper aside {
  flex: 1;
