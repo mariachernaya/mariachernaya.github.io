@@ -1,23 +1,20 @@
 #main-aside-wrapper {
  display: flex;
  flex-direction: column;
-}
-@media screen and (min-width: 800px) {
- #main-aside-wrapper {
- flex-direction: column;
- }
- #main-aside-wrapper aside,  #main-aside-wrapper main1, #main-aside-wrapper main {
- flex: 1;
- order 0;
+ width:100%; 
 }
 }
  #main-aside-wrapper aside {
  flex: 1;
  order 0;
 }
-  #main-aside-wrapper main1 {
+  #main-aside-wrapper headerr {
  flex: 1;
  order -1;
+}
+  #main-aside-wrapper navv {
+ flex: 1;
+ order -1; 
 }
 #main-aside-wrapper main {
  flex: 1;
@@ -81,4 +78,9 @@ div.navigation {
   margin-left: 60px;
   letter-spacing: .2em;
 }
+@media screen and (min-width: 800px) {
+ #main-aside-wrapper {
+ flex-direction: column;
+  order 0;
+ }
 }
