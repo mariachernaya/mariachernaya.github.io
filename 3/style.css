@@ -68,14 +68,10 @@ div.navigation {
   letter-spacing: .2em;
 }
 @media screen and (min-width: 800px) {
- #main-aside-wrapper {
  #main-aside-wrapper aside {
- flex: 1;
  order 0;
 }
 #main-aside-wrapper main {
- flex: 1;
  order: 0;
 }
- }
 }
