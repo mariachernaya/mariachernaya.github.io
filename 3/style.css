@@ -10,7 +10,7 @@
  flex: 1;
  order: 1;
 }
-#main-aside-wrapper maint {
+#main-aside-wrapper maq {
  flex: 1;
  order: 1;
 }
@@ -81,7 +81,7 @@ div.navigation {
  flex: 1;
  order: 0;
 }
- #main-aside-wrapper maint {
+ #main-aside-wrapper maq {
  flex: 1;
  order: 0;
 }
