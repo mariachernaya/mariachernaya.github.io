@@ -68,8 +68,5 @@ div.navigation {
   letter-spacing: .2em;
 }
 @media screen and (min-width: 800px) {
-#main-aside-wrapper wrapper {
- flex: 1;
- order: 0;
-}
+
 }
