@@ -1,20 +1,3 @@
-#main-aside-wrapper {
- display: flex;
- flex-direction: column;
- width:100%; 
-}
- #main-aside-wrapper aside {
- flex: 1;
- order 0;
-}
-#main-aside-wrapper main {
- flex: 1;
- order: 1;
-}
-#main-aside-wrapper head{
-    display: flex;
-    flex-direction: column;
-}
 tr:nth-child(even){ 
  background-color: orange;
 }
@@ -71,9 +54,4 @@ div.navigation {
   margin-right: 60px;
   margin-left: 60px;
   letter-spacing: .2em;
-}
-@media screen and (min-width: 800px) {
- #main-aside-wrapper{
- flex-direction: row;
- }
 }
