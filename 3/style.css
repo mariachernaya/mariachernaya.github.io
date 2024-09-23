@@ -100,7 +100,6 @@ div.navigation {
 .grid {
  display: grid;
  grid: 1fr 25% 30px / 40% 1fr;
- grid-gap: 0em;
  height: 200px;
  background-color: aliceblue;
 }
