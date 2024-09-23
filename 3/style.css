@@ -46,7 +46,6 @@ header {
     background-position: right;
     background-size: 100%;
     background-color: aliceblue;
-  
 }
 div.h{
  max-width:800px; 
@@ -103,5 +102,6 @@ div.navigation {
  grid: 1fr 25% 30px / 40% 1fr;
  grid-gap: 0em;
  height: 200px;
+ background-color: aliceblue;
 }
 }
