@@ -55,12 +55,17 @@ div.h{
  margin-top:30px; 
  padding:25px;
 }
-nav {
+#main-aside-wrapper nav {
+  flex: 1;
+  order: 0;
   flex-grow: 4;
   padding-top: 30px;
   padding-bottom: 20px;
   margin-bottom: 50px;
   margin-top: 20px;
+  background-color: aliceblue;
+  width:auto;
+ 
 }
 div.navigation {
   margin-right: 60px;
@@ -89,5 +94,19 @@ div.navigation {
  border-top-style: double;
  border-top-width: thick;
  width:auto; 
+}
+ #main-aside-wrapper nav {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  order: 0;
+  flex-grow: 4;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  background-color: aliceblue;
+  width:auto;
+ 
 }
 }
