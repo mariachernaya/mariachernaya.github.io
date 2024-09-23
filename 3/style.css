@@ -10,12 +10,6 @@
  flex: 1;
  order: 1;
 }
-.grid {
- display: grid;
- grid: 1fr 25% 30px / 40% 1fr;
- grid-gap: 1em;
- height: 200px;
-}
 #main-aside-wrapper footer{
  flex: 1;
  order: 1;
@@ -104,5 +98,10 @@ div.navigation {
   flex: 1;
   order: 0; 
 }
-
+.grid {
+ display: grid;
+ grid: 1fr 25% 30px / 40% 1fr;
+ grid-gap: 1em;
+ height: 200px;
+}
 }
