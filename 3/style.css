@@ -99,7 +99,6 @@ div.navigation {
  width:auto; 
 }
  #main-aside-wrapper nav {
-  flex-direction: row;
   flex: 1;
   order: 0; 
 }
