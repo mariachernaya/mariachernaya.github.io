@@ -10,7 +10,9 @@
  flex: 1;
  order: 1;
 }
- footer{
+#main-aside-wrapper footer{
+ flex: 1;
+ order: 1;
  background-color:aqua;
  color: black;  
  padding-right: 67px;
@@ -59,6 +61,7 @@ nav {
   padding-top: 30px;
   padding-bottom: 20px;
   margin-bottom: 50px;
+  margin-top: 15px;
 }
 div.navigation {
   margin-right: 60px;
@@ -76,5 +79,16 @@ div.navigation {
 #main-aside-wrapper main{
  flex: 1;
  order: 0;
+}
+ #main-aside-wrapper footer{
+ flex: 1;
+ order: 0;
+ background-color:aqua;
+ color: black;  
+ padding-right: 67px;
+ padding-top: 20px;
+ border-top-style: double;
+ border-top-width: thick;
+ width:auto; 
 }
 }
