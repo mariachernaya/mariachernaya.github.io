@@ -10,6 +10,12 @@
  flex: 1;
  order: 1;
 }
+#main-aside-wrapper section{
+ display: flex;
+ flex-direction: column;
+ flex: 1;
+ order: 0;
+}
 #main-aside-wrapper footer{
  flex: 1;
  order: 1;
@@ -98,5 +104,11 @@ div.navigation {
   flex-direction: row;
   flex: 1;
   order: 0; 
+}
+ #main-aside-wrapper section{
+ display: flex;
+ flex-direction: row;
+ flex: 1;
+ order: 0;
 }
 }
