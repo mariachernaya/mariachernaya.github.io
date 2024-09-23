@@ -57,11 +57,10 @@ div.h{
 }
 nav {
   flex-grow: 4;
-  background-color: aliceblue;
   padding-top: 30px;
   padding-bottom: 20px;
   margin-bottom: 50px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 div.navigation {
   margin-right: 60px;
