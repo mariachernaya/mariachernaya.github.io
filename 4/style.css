@@ -29,6 +29,15 @@ div.center{
  margin-top:45px;
  padding:5px;
 }
+footer{
+ background-color:aqua;
+ color: black;  
+ padding-right: 67px;
+ padding-top: 20px;
+ border-top-style: double;
+ border-top-width: thick;
+ width:auto; 
+}
 #pikch{
  float: left; 
  margin:35px; 
