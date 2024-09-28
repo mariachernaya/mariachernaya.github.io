@@ -50,7 +50,7 @@ div.h{
  margin-top:30px; 
  padding:25px;
 }
-#main-aside-wrapper nav {
+nav {
   flex: 1;
   order: 0;
   flex-grow: 4;
@@ -66,37 +66,5 @@ div.navigation {
   margin-left: 60px;
   letter-spacing: .2em;
 }
-@media screen and (min-width: 900px) {
-#main-aside-wrapper {
- display: flex;
-}
-#main-aside-wrapper aside {
- flex: 1;
- order: 0;
-}
-#main-aside-wrapper main,  #main-aside-wrapper section{
- flex: 1;
- order: 0;
-}
- #main-aside-wrapper footer{
- flex: 1;
- order: 0;
- background-color:aqua;
- color: black;  
- padding-right: 67px;
- padding-top: 20px;
- border-top-style: double;
- border-top-width: thick;
- width:auto; 
-}
- #main-aside-wrapper nav {
-  flex: 1;
-  order: 0; 
-}
-.grid {
- display: grid;
- grid: 1fr 25% 30px / 40% 1fr;
- height: 200px;
- background-color: aliceblue;
-}
-}
+
+
