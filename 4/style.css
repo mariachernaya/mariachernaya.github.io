@@ -1,26 +1,22 @@
-#main-aside-wrapper {
- display: flex;
- flex-direction: column;
+html {
+  font-size: 10px;
 }
-#main-aside-wrapper aside{
- flex: 1;
- order 0;
+body {
+  font-size: 12pt;
+  padding: 10px;
 }
-#main-aside-wrapper main, #main-aside-wrapper section{
- flex: 1;
- order: 1;
+main, aside {
+  background-color: #ddd;
+  padding: 10px;
+  font-family: serif;
+  height: 100%;
 }
-#main-aside-wrapper footer{
- flex: 1;
- order: 1;
- background-color:aqua;
- color: black;  
- padding-right: 67px;
- padding-top: 20px;
- border-top-style: double;
- border-top-width: thick;
- width:auto; 
+h1 {
+  margin-top: 15px;
+  font-size: 2em;
+  font-weight: bold;
 }
+
 tr:nth-child(even){ 
  background-color: orange;
 }
