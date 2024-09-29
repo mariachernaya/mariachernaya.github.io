@@ -10,7 +10,6 @@ h1 {
   margin-top: 15px;
   font-size: 2em;
 }
-
 tr:nth-child(even){ 
  background-color: orange;
 }
