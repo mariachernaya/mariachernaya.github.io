@@ -6,6 +6,11 @@ main, aside {
   padding: 10px;
   font-family: serif;
 }
+body {
+  font-size: 12pt;
+  padding: 10px;
+}
+
 h1 {
   margin-top: 15px;
   font-size: 2em;
