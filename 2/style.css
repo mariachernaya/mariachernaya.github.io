@@ -40,7 +40,6 @@ div.h{
  margin-top:30px; 
  padding:25px;
 }
-
 nav {
   flex-grow: 4;
   background-color: aliceblue;
@@ -55,6 +54,3 @@ div.navigation {
   margin-left: 60px;
   letter-spacing: .2em;
 }
-
- 
-
