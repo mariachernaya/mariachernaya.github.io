@@ -20,7 +20,7 @@ div.center{
  width:100px; 
  height:100px;
 }
-.page header{
+header{
     background-position: right;
     background-size: 100%;
     background-color: aliceblue;
