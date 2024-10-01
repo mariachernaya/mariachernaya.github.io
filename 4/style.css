@@ -20,10 +20,15 @@ div.center{
  width:100px; 
  height:100px;
 }
-.page header, .page nav {
+.page header{
     background-position: right;
     background-size: 100%;
     background-color: aliceblue;
+}
+ nav {
+  flex-grow: 4;
+  background-color: aliceblue;
+  width:auto;
 }
 div.h{
  max-width:800px; 
