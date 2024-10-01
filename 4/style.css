@@ -1,8 +1,6 @@
  footer{
  background-color:aqua;
  color: black;  
- padding-right: 67px;
- padding-top: 20px;
  border-top-style: double;
  border-top-width: thick;
  width:auto; 
@@ -16,13 +14,9 @@ tr:nth-child(odd){
 div.center{
  max-width: 500px;
  background-color: white;
- margin:auto;
- margin-top:45px;
- padding:5px;
 }
 #pikch{
  float: left; 
- margin:35px; 
  width:100px; 
  height:100px;
 }
@@ -34,19 +28,13 @@ header {
 div.h{
  max-width:800px; 
  background-color: aliceblue; 
-
 }
  nav {
   flex-grow: 4;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  margin-top: 20px;
   background-color: aliceblue;
   width:auto;
  
 }
 div.navigation {
-  margin-right: 60px;
-  margin-left: 60px;
   letter-spacing: .2em;
 }
