@@ -20,7 +20,7 @@ div.center{
  width:100px; 
  height:100px;
 }
-header {
+.page header, .page nav {
     background-position: right;
     background-size: 100%;
     background-color: aliceblue;
@@ -28,12 +28,6 @@ header {
 div.h{
  max-width:800px; 
  background-color: aliceblue; 
-}
- nav {
-  flex-grow: 4;
-  background-color: aliceblue;
-  width:auto;
- 
 }
 div.navigation {
   letter-spacing: .2em;
