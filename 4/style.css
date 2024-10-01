@@ -24,13 +24,16 @@ header{
     background-position: right;
     background-size: 100%;
     background-color: aliceblue;
+  height: 100%;
 }
  nav {
   flex-grow: 4;
   background-color: aliceblue;
   width:auto;
+   height: 100%;
 }
 div.h{
  max-width:800px; 
  background-color: aliceblue; 
+  height: 100%;
 }
