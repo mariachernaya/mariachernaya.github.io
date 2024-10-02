@@ -24,4 +24,5 @@ tr:nth-child(odd){
  .b-nav {
   background-color: aliceblue;
   width:auto;
+    height: 100%;
 }
