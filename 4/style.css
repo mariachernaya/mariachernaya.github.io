@@ -26,3 +26,8 @@ tr:nth-child(odd){
   width:auto;
     height: 100%;
 }
+.syte
+{
+    height: 110px;
+    background-color: aliceblue; 
+}
