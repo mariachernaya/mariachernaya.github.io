@@ -12,9 +12,11 @@ tr:nth-child(odd){
  background-color: yellow;
 }
 .pikch{ 
- width:80px; 
- height:80px;
-  background-color: aliceblue;
+ width:25%; 
+ height:auto;
+ background-color: aliceblue;
+ position: relative;
+ display: inline-block;
 }
 .b-h{
     background-size: 100%;
