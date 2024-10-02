@@ -11,10 +11,6 @@ tr:nth-child(even){
 tr:nth-child(odd){ 
  background-color: yellow;
 }
-div.center{
- max-width: 500px;
- background-color: white;
-}
 #pikch{
  float: left; 
  width:80px; 
@@ -26,7 +22,6 @@ div.center{
     background-color: aliceblue;
 }
  .b-nav {
-  flex-grow: 4;
   background-color: aliceblue;
   width:auto;
 }
