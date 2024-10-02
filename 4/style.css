@@ -21,10 +21,15 @@ tr:nth-child(odd){
     height: 100%;
     background-color: aliceblue;
 }
- .b-nav {
-  background-color: aliceblue;
-  width:auto;
-    height: 100%;
+#nav
+{
+     background-color: aliceblue;
+    padding: 1vw;
+}
+#nav > div
+{
+      background-color: aliceblue;
+    width: fit-content;
 }
 .syte
 {
