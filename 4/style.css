@@ -16,7 +16,6 @@ tr:nth-child(odd){
  height:50px;
  background-color: aliceblue;
  position: relative;
- display: inline-block;
 }
 .b-h{
     background-size: 100%;
