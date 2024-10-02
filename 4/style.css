@@ -18,7 +18,7 @@ tr:nth-child(odd){
  position: relative;
  display: inline-block;
 }
-.b-c{
+.b-h{
     background-size: 100%;
     height: 100%;
     background-color: aliceblue;
@@ -44,8 +44,4 @@ flex-flow: row nowrap;
 background-position: right;
 background-size: 100%;
 background-color: aliceblue; 
-}
-div.h{
- max-width:800px; 
- background-color: aliceblue; 
 }
