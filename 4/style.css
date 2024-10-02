@@ -11,10 +11,10 @@ tr:nth-child(even){
 tr:nth-child(odd){ 
  background-color: yellow;
 }
-#pikch{
- float: left; 
+.pikch{ 
  width:80px; 
  height:80px;
+  background-color: aliceblue;
 }
 .b-h{
     background-size: 100%;
