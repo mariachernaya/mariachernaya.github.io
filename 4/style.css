@@ -38,6 +38,17 @@ tr:nth-child(odd){
     height: 110px;
     background-color: aliceblue; 
 }
-header{
- width: 100%;
+ header {
+display: flex;
+flex-flow: row nowrap;
+background-position: right;
+background-size: 100%;
+background-color: aliceblue; 
+}
+div.h{
+ max-width:800px; 
+ background-color: aliceblue; 
+ margin: 0 auto; 
+ margin-top:30px; 
+ padding:25px;
 }
