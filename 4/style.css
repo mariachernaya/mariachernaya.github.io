@@ -11,10 +11,6 @@ tr:nth-child(even){
 tr:nth-child(odd){ 
  background-color: yellow;
 }
-.img
-{
-   background-color: aliceblue;
-}
 .b-h{
     background-size: 100%;
     height: 100%;
