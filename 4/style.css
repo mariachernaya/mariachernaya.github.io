@@ -38,3 +38,6 @@ tr:nth-child(odd){
     height: 110px;
     background-color: aliceblue; 
 }
+header{
+ width: 100%;
+}
