@@ -25,12 +25,12 @@ tr:nth-child(odd){
 }
 #nav
 {
-     background-color: aliceblue;
+    background-color: aliceblue;
     padding: 1vw;
 }
 #nav > div
 {
-      background-color: aliceblue;
+    background-color: aliceblue;
     width: fit-content;
 }
 .syte
@@ -38,9 +38,7 @@ tr:nth-child(odd){
     height: 110px;
     background-color: aliceblue; 
 }
- header {
-display: flex;
-flex-flow: row nowrap;
+header {
 background-position: right;
 background-size: 100%;
 background-color: aliceblue; 
