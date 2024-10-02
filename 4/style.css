@@ -38,7 +38,5 @@ tr:nth-child(odd){
     background-color: aliceblue; 
 }
 header {
-background-position: right;
-background-size: 100%;
 background-color: aliceblue; 
 }
