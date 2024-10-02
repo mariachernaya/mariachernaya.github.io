@@ -14,8 +14,8 @@ tr:nth-child(odd){
 .img
 {
    background-color: aliceblue;
-    width: 50%;
-    height: 50%;
+    max-width: 100%;
+    height: auto;
 }
 .b-h{
     background-size: 100%;
