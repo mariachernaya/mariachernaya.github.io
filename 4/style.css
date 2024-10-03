@@ -16,10 +16,9 @@ tr:nth-child(odd){
     height: 100%;
     background-color: aliceblue;
 }
-h1 {
+p1 {
  margin-top: 15px;
  font-size: 2em;
- font-weight: bold;
 }
 #nav
 {
