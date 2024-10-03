@@ -16,7 +16,7 @@ tr:nth-child(odd){
     height: 100%;
     background-color: aliceblue;
 }
-p1 {
+p{
  margin-top: 15px;
  font-size: 2em;
 }
