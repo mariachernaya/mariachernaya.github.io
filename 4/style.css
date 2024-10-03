@@ -26,7 +26,7 @@ tr:nth-child(odd){
     background-color: aliceblue;
     width: fit-content;
 }
-header{
+#main-aside-wrapper header{
 background-color: aliceblue; 
 }
 section{
@@ -36,6 +36,6 @@ aside{
  background-color: aliceblue; 
 }
 @media screen and (min-width: 900px) {
-#main-aside-wrapper {
+#main-aside-wrapper header {
 background-color: white; 
 }
