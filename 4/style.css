@@ -27,15 +27,12 @@ tr:nth-child(odd){
     width: fit-content;
 }
 #main-aside-wrapper header{
-background-color: aliceblue; 
+background-color: white; 
 }
 section{
  background-color: aliceblue; 
 }
-aside{
- background-color: aliceblue; 
-}
 @media screen and (min-width: 900px) {
 #main-aside-wrapper header {
-background-color: white; 
+background-color: aliceblue; 
 }
