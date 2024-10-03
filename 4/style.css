@@ -35,3 +35,7 @@ section{
 aside{
  background-color: aliceblue; 
 }
+@media screen and (min-width: 900px) {
+#main-aside-wrapper {
+background-color: white; 
+}
