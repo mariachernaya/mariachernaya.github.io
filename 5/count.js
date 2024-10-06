@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', function () {
   const price =
     {"pr1": 10, "pr2": 20, "pr3": 30, "pr4": 40, "pr5": 50};
  
-  let b = document.getElementById("my-button");
+  let = document.getElementById("");
   let product = document.getElementById("list");
   let count = document.getElementById("count");
   let r = document.getElementById("result");
