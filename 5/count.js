@@ -1,4 +1,4 @@
-function click1() {
+function click1(event) {
  let f1 = document.getElementsByName("field1");
  let r = document.getElementById("result");
  if (s[0].value=="v1") r.innerHTML = f1[0].value*3500;
@@ -11,4 +11,7 @@ function click1() {
   console.log(s[0].value);
  return false;
 }
-
+window.addEventListener('DOMContentLoaded', function (event) {
+  let  b = document.getElementById("button1");
+  b.addEventListener("click", click1);
+});
