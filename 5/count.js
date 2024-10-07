@@ -8,7 +8,7 @@ function click1() {
  if (s[0].value=="v5") r.innerHTML = f1[0].value*4000;
  let s = document.getElementByName("select1");
  if (r[0].value==null) r.innerHTML ="не корректное значение";
-  console.log(r[0].value);
+  console.log(s[0].value);
  return false;
 }
 
