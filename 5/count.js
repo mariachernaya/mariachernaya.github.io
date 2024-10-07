@@ -7,5 +7,7 @@ function click1() {
  if (s[0].value=="v3") r.innerHTML = f1[0].value*11500;
  if (s[0].value=="v4") r.innerHTML = f1[0].value*8000;
  if (s[0].value=="v5") r.innerHTML = f1[0].value*4000;
+ if (r[0].value==null) r.innerHTML ="не корректное значение";
+  console.log(r[0].value);
  return false;
 }
