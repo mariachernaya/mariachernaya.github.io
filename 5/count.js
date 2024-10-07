@@ -8,8 +8,8 @@ function click1(event) {
   if (s[0].value=="v4")  r.innerHTML = f1[0].value*8000;
   if (s[0].value=="v5")  r.innerHTML = f1[0].value*4000;
   console.log(r[0].value);
+  return false;  
   event.preventDefault();
-  return false;
 }
 window.addEventListener('DOMContentLoaded', function (event) {
   console.log("DOM fully loaded and parsed");
