@@ -8,7 +8,7 @@ function click1(event) {
   if (s[0].value=="v3")  r.innerHTML = f1[0].value*11500;
   if (s[0].value=="v4")  r.innerHTML = f1[0].value*8000;
   if (s[0].value=="v5")  r.innerHTML = f1[0].value*4000;
-  }else  r.innerHTML = "eror";
+}
   return false;  
   event.preventDefault();
 }
