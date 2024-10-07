@@ -5,17 +5,17 @@
         <script src="count.js" defer></script>
     </head>
     <body>
-        <input id="num1" />
+       <div id="result"></div>
+<form>
+  <input name="field1" type="text">
+  <input name="field2" type="text">
+  <select name="select1">
+    <option value="v1">Вариант 1</option>
+    <option value="v2">Вариант 2</option>
+  </select>
+  <button id="button1" onclick="return click1();">OK</button>
+  
+</form>
 
-        <div id="operator_btns">
-            <button id="plus">+</button>
-            <button id="minus">-</button>
-            <button id="times">x</button>
-            <button id="divide">:</button>
-        </div>
-
-        <input id="num2" />
-        <br>
-        <button> посчитать </button>
     </body>
 </html>
