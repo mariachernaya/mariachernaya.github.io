@@ -9,6 +9,7 @@ function click1(event) {
  let s = document.getElementByName("select1");
  if (r[0].value==null) r.innerHTML ="не корректное значение";
   console.log(r[0].value);
+   event.preventDefault();
  return false;
 }
 window.addEventListener('DOMContentLoaded', function (event) {
