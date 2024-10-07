@@ -3,7 +3,7 @@ function click1(event) {
   let r = document.getElementById("result");
   let s = document.getElementsByName("select1");
   if (s[0].value=="v1")  r.innerHTML = f1[0].value*3500;
-  if (s[0].value=="v2")  r.innerHTML = f1[0].value*9000;
+  if (s[0].value=="v2")  r.innerHTML = f1[0].value*7500;
   if (s[0].value=="v3")  r.innerHTML = f1[0].value*11500;
   if (s[0].value=="v4")  r.innerHTML = f1[0].value*8000;
   if (s[0].value=="v5")  r.innerHTML = f1[0].value*4000;
