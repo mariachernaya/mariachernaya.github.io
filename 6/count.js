@@ -12,7 +12,6 @@ window.addEventListener('DOMContentLoaded', function (event) {
  radios.style.display = "block";
  }
  });
-
  let r = document.querySelectorAll(".myradios input[type=radio]");
  r.forEach(function(radio) {
  radio.addEventListener("change", function(event) {
@@ -20,5 +19,4 @@ window.addEventListener('DOMContentLoaded', function (event) {
  console.log(r.value);
  });
  });
-
 });
