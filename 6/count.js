@@ -33,7 +33,7 @@ function click1() {
     let c1 = document.getElementsByName("check-1");
     let c2 = document.getElementsByName("check-2");
     let я = f1[0].value;
-    if (rad[0].checked) {
+    if (rd[0].checked) {
         r.innerHTML = f[0].value * 4200;
     }
     if (rd[1].checked) {
