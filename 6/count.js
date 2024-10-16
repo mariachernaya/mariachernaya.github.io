@@ -34,34 +34,36 @@ function click1() {
     let c2 = document.getElementsByName("check-2");
     let z = f1[0].value;
     if (r1[0].checked) {
-        r.innerHTML = f[0].value * 4200;
+        r.innerHTML = f1[0].value * 1500;
     }
     if (r1[1].checked) {
         if (s[0].value === "v1") {
-            r.innerHTML = f1[0].value * 500;
+            r.innerHTML = f1[0].value * 4500;
         }
         if (s[0].value === "v2") {
-            r.innerHTML = f1[0].value * 400;
+            r.innerHTML = f1[0].value * 5200;
         }
         if (s[0].value === "v3") {
-            r.innerHTML = f1[0].value * 600;
+            r.innerHTML = f1[0].value * 7000;
         }
         if (s[0].value === "v4") {
-            r.innerHTML = f1[0].value * 700;
+            r.innerHTML = f1[0].value * 11000;
         }
     }
     if (r1[2].checked) {
         if (c1[0].checked && c2[0].checked) {
-            r.innerHTML = f1[0].value * 1200;
+            r.innerHTML = f1[0].value * 12000;
         } else if (c1[0].checked) {
-            r.innerHTML = f1[0].value * 1100;
+            r.innerHTML = f1[0].value * 30000;
         } else if (c2[0].checked) {
-            r.innerHTML = f1[0].value * 900;
+            r.innerHTML = f1[0].value * 40000;
         } else {
-            r.innerHTML = f1[0].value * 800;
+            r.innerHTML = f1[0].value * 20000;
         }
     }
-
+    if (r1[3].checked) {
+        r.innerHTML = f1[0].value * 10000;
+    }
     if (z.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
     }
