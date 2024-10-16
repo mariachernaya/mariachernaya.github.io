@@ -8,18 +8,28 @@
         <h3>задание 6</h3>
        
 <form>
- <select name="myselect">
- <option value="1">Option 1</option>
- <option value="2">Option 2</option>
- <option value="3">Option 3</option>
- </select>
-
- <div class="myradios" id="myradios">
- <label><input type="radio" name="myradio" value="r1">R1</label>
- <label><input type="radio" name="myradio" value="r2">R2</label>
- <label><input type="radio" name="myradio" value="r3">R3</label>
- </div>
-
+  <input name="field1" type="text">
+              <button id="button1" onclick="return click1();">OK</button>
+              <div class="radiobutton" id="radiobutton">
+                <label><input type="radio" name="radiobutton" value="r2">первичный осмотр</label>
+                <label><input type="radio" name="radiobutton" value="r1">удаление зуба</label>
+                <label><input type="radio" name="radiobutton" value="r3">установка брекетов</label>
+                <label><input type="radio" name="radiobutton" value="r4">лечение</label> 
+          </div>  
+              <div id="sel" style="display:none">
+            <select name="select1">
+              <option value="v1">без анастезии</option>
+              <option value="v2">с анастезией</option>
+              <option value="v3">под местным наркозом</option>
+              <option value="v3">под общим наркозом</option>
+            </select>
+              </div>
+        <div id="ch" style="display:none">
+          <div class="check">
+              <label><input type="checkbox" checked="checked" name="check-1" value="c1">лигатурные</label>
+              <label><input type="checkbox" checked="checked" name="check-2" value="c2">самолигирующие</label>
+          </div></div>
+              <h3>Стоимость: </h3><div id="result"></div>
 </form>
     </body>
 </html>
