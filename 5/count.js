@@ -6,7 +6,7 @@ function click1(event) {
     if (s[0].value === "v1") {
         r.innerHTML = f1[0].value * 3500;
     }
-    if (s[0].valu =e== "v2") {
+    if (s[0].value === "v2") {
         r.innerHTML = f1[0].value * 7500;
     }
     if (s[0].value === "v3") {
