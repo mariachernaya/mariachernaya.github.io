@@ -26,17 +26,17 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 function click1() {
-    let rd = document.querySelectorAll(".radiobutton input[type=radio]");
-    let f = document.getElementsByName("field");
-    let s = document.getElementsByName("select");
+    let r1 = document.querySelectorAll(".radiobutton input[type=radio]");
+    let f1 = document.getElementsByName("field1");
+    let s = document.getElementsByName("select1");
     let r = document.getElementById("result");
     let c1 = document.getElementsByName("check-1");
     let c2 = document.getElementsByName("check-2");
-    let я = f1[0].value;
-    if (rd[0].checked) {
+    let z = f1[0].value;
+    if (r1[0].checked) {
         r.innerHTML = f[0].value * 4200;
     }
-    if (rd[1].checked) {
+    if (r1[1].checked) {
         if (s[0].value === "v1") {
             r.innerHTML = f1[0].value * 500;
         }
@@ -50,7 +50,7 @@ function click1() {
             r.innerHTML = f1[0].value * 700;
         }
     }
-    if (rd[2].checked) {
+    if (r1[2].checked) {
         if (c1[0].checked && c2[0].checked) {
             r.innerHTML = f1[0].value * 1200;
         } else if (c1[0].checked) {
@@ -62,7 +62,7 @@ function click1() {
         }
     }
 
-    if (m.match(/^\d+$/) === null) {
+    if (z.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
     }
     return false;
