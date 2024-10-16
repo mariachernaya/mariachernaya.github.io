@@ -15,16 +15,16 @@ function click1(event) {
     if (s[0].value === "v4") {
         r.innerHTML = f1[0].value * 8000;
     }
-    if (s[0].value === "v5") {  
+    if (s[0].value === "v5") {
         r.innerHTML = f1[0].value * 4000;
     }
     if (z.match(/^\d+$/) === null) {
-        r.innerHTML='eror';
+        r.innerHTML = "eror";
     }
-    event.preventDefault(); 
-    return false;  
+    event.preventDefault();
+    return false;
 }
-window.addEventListener('DOMContentLoaded', function (event) {  
+window.addEventListener("DOMContentLoaded", function () {
     let b = document.getElementById("button1");
     b.addEventListener("click", click1);
 });
