@@ -25,6 +25,6 @@ function click1(event) {
     return false;  
 }
 window.addEventListener('DOMContentLoaded', function (event) {  
-  let b = document.getElementById("button1");
-  b.addEventListener("click", click1);
+    let b = document.getElementById("button1");
+    b.addEventListener("click", click1);
 });
