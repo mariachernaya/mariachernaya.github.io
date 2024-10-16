@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function () {
     let chek = document.getElementById("ch");
-    let s = document.getElementById("sl");
+    let s = document.getElementById("sel");
     let r = document.querySelectorAll(".radiobutton input[type=radio]");
     r.forEach(function (radio) {
         radio.addEventListener("change", function (event) {
