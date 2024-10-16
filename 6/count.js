@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", function () {
                 chek.style.display = "block";
                 s.style.display = "none";
             }
-             if (rad.value === "r4") {
+            if (rad.value === "r4") {
                 chek.style.display = "none";
                 s.style.display = "none";
             }
