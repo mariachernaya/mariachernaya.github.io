@@ -52,7 +52,7 @@ function click1() {
     }
     if (r1[2].checked) {
         if (c1[0].checked && c2[0].checked) {
-            r.innerHTML = f1[0].value * 12000;
+            r.innerHTML = f1[0].value * 100000;
         } else if (c1[0].checked) {
             r.innerHTML = f1[0].value * 30000;
         } else if (c2[0].checked) {
