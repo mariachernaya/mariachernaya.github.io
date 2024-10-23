@@ -1,9 +1,5 @@
 body{
-      background: url(https://nik125y.github.io/foto/fon2.png); 
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed; 
+      background-color: aliceblue; 
 }
 
 h1{
@@ -19,14 +15,14 @@ h1{
 }
 
 .carousel{
-    max-width: 1000px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .carousel .slick-slide{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 img{
