@@ -1,0 +1,42 @@
+ footer{
+ background-color:aqua;
+ color: black;  
+ border-top-style: double;
+ border-top-width: thick;
+ width: 100%; 
+}
+tr:nth-child(even){ 
+ background-color: orange;
+}
+tr:nth-child(odd){ 
+ background-color: yellow;
+}
+.b-h{
+    background-size: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+p{
+ margin-top: 25px;
+ font-size: 2em;
+}
+#nav
+{
+    background-color: aliceblue;
+    padding: 1vw;
+}
+#nav > div
+{
+    background-color: aliceblue;
+    width: fit-content;
+}
+#main-aside-wrapper header{
+background-color: white; 
+}
+section{
+ background-color: aliceblue; 
+}
+@media screen and (min-width: 900px) {
+#main-aside-wrapper header {
+background-color: aliceblue; 
+}
