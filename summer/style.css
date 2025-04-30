@@ -1,42 +1,174 @@
- footer{
- background-color:aqua;
- color: black;  
- border-top-style: double;
- border-top-width: thick;
- width: 100%; 
+    body { 
+     font-family: sans-serif; 
+     margin: 0; -->
+     background-color: #f0f0f5; 
+     } 
+    header, footer {
+      background-color: #cccde3;
+      padding: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .carousel {
+      padding: 20px;
+    }
+
+    .carousel h3 {
+      margin-bottom: 10px;
+    }
+
+    .book-slider .book {
+      background: white;
+      padding: 10px;
+      margin: 0 5px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+   <!-- .slick-prev, .slick-next { -->
+      <!-- background: #80334d; -->
+      <!-- border: none; -->
+      <!-- color: white; -->
+      <!-- padding: 10px; -->
+      <!-- border-radius: 50%; -->
+      <!-- position: absolute; -->
+      <!-- top: 40%; -->
+      <!-- transform: translateY(-50%); -->
+      <!-- z-index: 2; -->
+    <!-- } -->
+
+    <!-- .slick-prev { -->
+      <!-- left: -30px; -->
+    <!-- } -->
+
+    <!-- .slick-next { -->
+      <!-- right: -30px; -->
+    <!-- }  -->
+    <!-- .slick-track { -->
+      <!-- display: flex; -->
+      <!-- align-items: stretch; -->
+    <!-- } -->
+	
+	.slick-prev, .slick-next {
+  background: #80334d;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
-tr:nth-child(even){ 
- background-color: orange;
+
+.slick-prev svg, .slick-next svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
 }
-tr:nth-child(odd){ 
- background-color: yellow;
+
+.slick-prev {
+  left: -30px;
 }
-.b-h{
-    background-size: 100%;
-    height: 100%;
-    background-color: aliceblue;
+
+.slick-next {
+  right: -30px;
 }
-p{
- margin-top: 25px;
- font-size: 2em;
+	
+	
+	
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+   <!-- .search-bar {
+      flex: 1;
+      margin: 0 20px;
+	  border: 1px solid #ccc;
+	  border-radius: 20px;
+    }
+    .search-bar input {
+      width: 100%;
+      padding: 10px;
+    } -->
+	
+	.search-container {
+  position: relative;
+  width: 300px;
 }
-#nav
-{
-    background-color: aliceblue;
-    padding: 1vw;
+
+.search-bar {
+  border: none;
+  border-radius: 25px;
+  padding: 12px 15px 12px 5px;
+  width: 100%;
+  background-color: #f1f1f1;
+  font-size: 16px;
 }
-#nav > div
-{
-    background-color: aliceblue;
-    width: fit-content;
+
+.search-container::before {
+  content: "🔍"; 
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
 }
-#main-aside-wrapper header{
-background-color: white; 
-}
-section{
- background-color: aliceblue; 
-}
-@media screen and (min-width: 900px) {
-#main-aside-wrapper header {
-background-color: aliceblue; 
-}
+	
+	
+	
+    .user-controls {
+      display: flex;
+      gap: 10px;
+    }
+    .promo {
+      background-color: #e3dce7;
+      padding: 40px;
+      text-align: center;
+    }
+    .promo h2 {
+      margin: 0 0 10px;
+    }
+    .promo button {
+      padding: 10px 20px;
+      background-color: #80334d;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .carousel, .bestsellers {
+      padding: 20px;
+    }
+    h3 {
+      margin-top: 0;
+    }
+    .book-list {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+    }
+    .book {
+      background: white;
+      padding: 10px;
+      width: 120px;
+      flex-shrink: 0;
+      text-align: center;
+    }
+    .about {
+      padding: 20px;
+      background-color: #fff;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+    }
